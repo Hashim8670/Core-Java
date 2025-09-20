@@ -1,0 +1,19 @@
+package com.logical.java;
+
+public class StringBuilder1{
+
+	public static void main(String[] args) {
+		String str="hashim";
+		StringBuilder  sb=new StringBuilder(str);
+		 System.out.println(sb.reverse());
+	
+	if(sb.equals(str)) {
+		System.out.println(str+"Palindrome String");
+	}
+	else {
+	   System.out.println(str+"Not Palindrome String");	
+	}
+	}
+
+	
+}

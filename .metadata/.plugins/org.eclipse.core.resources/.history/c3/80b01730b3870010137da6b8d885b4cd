@@ -1,0 +1,31 @@
+package com.abstraction.java;
+
+abstract class Hashim
+{
+	Hashim(){
+		System.out.println("What is your Name");
+	}
+       abstract void detail();	
+
+     void show() 
+     {
+       System.out.println("Show Your Card");
+     }
+}
+class Ansari extends Hashim
+{
+	void detail()
+	{
+		System.out.println("Where Are You From");
+	}
+	void show() 
+    {
+      System.out.println("Show Your Card");
+    }
+}
+public class IterfaceClass {
+      public static void main(String[] args) {
+		  Ansari a = new Ansari();
+		  a.detail();
+	}
+}

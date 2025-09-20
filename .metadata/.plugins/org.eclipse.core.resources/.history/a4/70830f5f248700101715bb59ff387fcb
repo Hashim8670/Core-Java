@@ -1,0 +1,23 @@
+package com.logical.java;
+
+
+public class Palindrome {
+    public static void main(String[] args) {
+      
+
+        int num = 122;
+         int reverse = 0;
+
+        while (num > 0) {
+            int digit = num % 10;
+            reverse = reverse +num ;
+            num = num / 10;
+        }
+
+        if (reverse == num) {
+            System.out.println(reverse + " is a Palindrome Number");
+        } else {
+            System.out.println(reverse + " is NOT a Palindrome Number");
+        }
+    }
+}

@@ -1,0 +1,41 @@
+package ExceptionHandling;
+
+@SuppressWarnings("serial")
+class PanCardMakingException extends Exception{
+	PanCardMakingException(){
+		super("Your age is not valid...!");
+	}
+	PanCardMakingException(String message){
+		super(message);
+	}
+}
+class CardMaking {
+	     int age;
+		 void show() {
+	    	try { 
+	    		age=13;
+	    		if(age<=18) {
+	    			throw new PanCardMakingException("You Are not Eligibal Making Pan Card..!");
+	    		}
+	    		else {
+	    			System.out.println("You Are Eligibal Making Pan Card..!");
+	    		}
+	    	} 
+	    	catch(PanCardMakingException a) {
+	    		System.out.println(a.getMessage());
+	    	 // a.printStackTrace();
+	    	}
+	    	if(age<=18) {
+	    		System.out.println("Sorry No Available your pan card...!");
+	    	}
+	    	else {
+	    		System.out.println("You Can take Your pan card....!");
+	    	}
+       }
+}
+public class CheckedException {
+    public static void main(String[] args) {
+		CardMaking cardMaking = new CardMaking();
+		cardMaking.show();
+	}
+}

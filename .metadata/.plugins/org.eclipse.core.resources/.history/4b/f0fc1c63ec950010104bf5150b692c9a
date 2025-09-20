@@ -1,0 +1,29 @@
+package String;
+
+public class String_Method {
+
+	public static void main(String[] args) {
+		/*
+		 * // 1st method String str="       Hashim			";
+		 * System.out.println(str.length());
+		 * 
+		 * int i=str.length(); if(str.length()==0) {
+		 * System.out.println("Please Enter password"); } else {
+		 * System.out.println("You Entered Password Successfully");
+		 * 
+		 * } // 2nd method String s=""; if(s.isEmpty()){
+		 * System.out.println("Please Enter password "); } else {
+		 * System.out.println("You Entered Password Successfully ");
+		 * 
+		 * } 
+		 */
+		   //  3rs method
+		 String _1st="abc";
+		 String _2nd="AbC";
+		 System.out.println(_1st.compareTo(_2nd));
+		 System.out.println(_1st.compareToIgnoreCase(_2nd));
+		 
+			
+	}
+
+}

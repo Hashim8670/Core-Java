@@ -1,0 +1,19 @@
+
+package com.logical.java;
+
+
+class SumOfDigit{
+    public static void main(String args[]){
+    long a= 23456l;
+    long b=a*a;
+   long sum = 0;
+    while(b>0){
+    	sum += b%10;
+    	b= b/10;
+    	 System.out.println(sum);
+    
+    }
+    System.out.println(sum);
+    }
+}
+

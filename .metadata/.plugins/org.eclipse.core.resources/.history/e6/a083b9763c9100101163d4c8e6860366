@@ -1,0 +1,49 @@
+package ExceptionHandling;
+
+import java.util.Scanner;
+
+@SuppressWarnings("serial")
+class YoungerAgeException extends RuntimeException{
+	
+	YoungerAgeException (String msg){
+		super(msg);
+	}
+	
+}
+class Voting{
+	
+	@SuppressWarnings("resource")
+	void show() {
+	 Scanner sc=new Scanner(System.in);
+	 System.out.println("Enter your Age....!");
+	  
+	 int age=sc.nextInt();
+	 try {
+	 if(age<18) {
+		throw new YoungerAgeException("Your Not Eligible for vote....!");
+	 }
+	 else {
+		 System.out.println("You Are Eligibal for vote....!"); 
+	 }
+	 }
+	 catch(YoungerAgeException a) {
+		 System.out.println(a.getMessage());
+	 }
+	 if(age<18){
+		 System.out.println("Sorry...!");
+	 }
+	 else {
+		 System.out.println("Voting SuccessFully....!");
+	 }
+	// sc.close();
+	}	
+}
+public class ThrowKeyword {
+
+	public static void main(String[] args){
+	      
+         Voting voting = new Voting();
+         voting.show();
+	}
+
+}

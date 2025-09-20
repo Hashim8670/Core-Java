@@ -1,0 +1,28 @@
+package com.polymorphism.java;
+
+class Employee{
+	void salary() {
+		System.out.println(100000);
+	}
+	void show() {
+		System.out.println("Payment Success Fully");
+	}
+}
+class clerk extends Employee{
+	@Override
+	void salary() {
+		System.out.println(120000);
+	}
+	void show() {
+		System.out.println("Payment Success Fully");
+	}
+	
+}
+public class MethodOverriding {
+  public static void main(String[] args) {
+	Employee e = new clerk();
+	  e.salary(); 
+	  e.show();
+	
+   }
+}

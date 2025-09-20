@@ -1,0 +1,17 @@
+package Abstraction;
+
+interface Room{
+	
+}
+
+
+
+
+public class Interfacee {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

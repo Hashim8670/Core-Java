@@ -1,0 +1,28 @@
+package com.core.java;
+class Building {
+    String name; 
+     String detail;
+     Building (String name,String detail){
+     this.name=name;
+       this.detail= detail;
+}
+     }
+class Room{
+    String roomname ;
+    String roomdetail;
+    Room(String roomname, String roomdetail){
+       this.roomname = roomname;
+        this.roomdetail=  roomdetail;
+    }
+        Building f = new Building("Hashim Department","100 BHK");
+    
+    void show(){
+        System.out.println("Room  :"+f.name+"  "+"Room Detail :"+f.detail);
+        System.out.println(roomname+" "+roomdetail);
+    }}
+    public class Composition2{
+        public static void main (String args[]){
+            Room r =  new Room("Hall","1 BHK");
+            r.show();
+        } 
+    }

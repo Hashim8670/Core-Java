@@ -1,0 +1,26 @@
+package Association;
+
+class Man{
+    void eat() {
+    	System.out.println("Man is Eating");
+    }
+}
+class Heart{ 
+	Man m=new Man();
+	 Heart()
+	 {
+		 System.out.println("Heart is Pumping");
+	 }
+      void work() {
+    	  Man m=new Man();
+    	  m.eat();
+    	  System.out.println("When Heart is Pumping Man is Alive");
+      }
+}
+public class Composition {
+  public static void main(String[] args) 
+  {
+	 Heart h = new Heart();
+	 h.work();
+}
+}

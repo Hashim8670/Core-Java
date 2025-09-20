@@ -1,0 +1,34 @@
+package Association;
+
+class Driver{
+	String name;
+	long salary;
+	Driver(String name,long salary){
+		this.name = name ;
+		this.salary = salary; 
+	}
+}
+class Bike {
+	Driver d;
+	String bikename;
+	int bikenumber;
+	
+	Bike (Driver r,String bikename,int bikenumber){
+		d = r;
+		this.bikename = bikename;
+		this.bikenumber = bikenumber;
+	}
+	void display() {
+	 System.out.println("Driver Name : "+d.name);
+	 System.out.println("Driver Salary : "+d.salary);
+	 System.out.println("Bike Name ; "+bikename);
+	 System.out.println("Bike Number : "+bikenumber);
+	}
+}
+public class Aggregation {
+   public static void main(String[] args) {
+	Driver d  = new Driver("Hashim Ansari",19876);
+	Bike b = new Bike(d,"Apache",1235);
+	  b.display();
+}
+}

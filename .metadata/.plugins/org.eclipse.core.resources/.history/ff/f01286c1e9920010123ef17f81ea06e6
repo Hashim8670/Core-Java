@@ -1,0 +1,25 @@
+package Covarient;
+
+class Animal{
+    Animal getAnimal(){
+        return this;
+    }
+}
+class Goat extends Animal{
+
+      Goat getAniaml(){
+        return this;
+        
+      }
+      void show(){
+          System.out.println("Goat is Running");
+      }
+     
+}
+class Covarient {
+    public static void main(String args[]){
+          Goat g = new Goat();
+          g.getAniaml().show();
+    }  
+}
+

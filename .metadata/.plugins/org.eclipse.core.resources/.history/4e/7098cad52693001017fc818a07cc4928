@@ -1,0 +1,18 @@
+package Polymorphism;
+
+class Garden {
+	  String  String name ) {
+		  System.out.println();
+		  
+	  }
+}
+
+
+public class MethodOverLoading {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

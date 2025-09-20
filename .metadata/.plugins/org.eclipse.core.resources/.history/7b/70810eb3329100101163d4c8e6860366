@@ -1,0 +1,28 @@
+package ExceptionHandling;
+
+import java.util.Scanner;
+
+public class Number_Format {
+
+	public static void main(String[] args) {
+	  
+		int number;
+		
+		Scanner sc=new Scanner(System.in);
+		
+		while(true) {
+			System.out.println("Enter any valid Integer : ");
+			
+			try{
+				number=Integer.parseInt(sc.next());
+				System.out.println("you Entered  : "+number);
+				break;
+			}
+			catch(NumberFormatException e) {
+				e.printStackTrace();
+				sc.close();
+			}
+		}
+	}
+
+}

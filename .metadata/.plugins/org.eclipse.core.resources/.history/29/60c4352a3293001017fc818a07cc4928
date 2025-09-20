@@ -1,0 +1,55 @@
+package Encapsulation;
+
+class ATM{
+	private int pin;
+	private double balance;
+	
+	public int getPin() {
+		return pin;
+	}
+	public void setPin(int pin) {
+        this.pin=pin;
+	}
+	public double getBalance() {
+		return balance;
+	}
+	public void setBalance(double balance) {
+		this.balance=balance;
+	}
+	public void deposite(double amount) {
+		
+		 if(amount >0) {
+			 balance += amount;
+         System.out.println("Credit Balance Is : "+amount);
+		 }
+		 else {
+			 System.out.println("Invalid credit Amount");
+		 }
+	}
+	public void  withdraw(double amount) {
+		
+		if(amount >0 && amount <= balance) {
+			balance -=  amount;
+			System.out.println("Debit amount is : "+amount);
+			 System.out.println("Now Balance is : "+getBalance());
+		}
+		else {
+			System.out.println("Invalid debit Amount : ");
+		}
+	}
+}
+public class Encapsulation {
+
+	public static void main(String[] args) {
+		
+      ATM atm = new ATM();
+      atm.setPin(8670);
+      atm.setBalance(10000);
+      System.out.println("Current Balance is : "+atm.getBalance());
+      System.out.println("Your Pin is : "+atm.getPin());
+      atm.deposite(-5000);
+      System.out.println("Total Balance is : "+atm.getBalance());
+      atm.withdraw(10000);
+	}
+
+}

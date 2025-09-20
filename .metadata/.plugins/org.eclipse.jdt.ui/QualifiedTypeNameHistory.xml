@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="jdk.internal.org.jline.terminal.TerminalBuilder.SystemOutput"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.launcher.Main"/>
+    <fullyQualifiedTypeName name="com.core.java.ParameterizedConstructor"/>
+    <fullyQualifiedTypeName name="java.util.jar.Attributes.Name"/>
+    <fullyQualifiedTypeName name="com.polymorphism.java.Owner"/>
+    <fullyQualifiedTypeName name="javax.imageio.IIOException"/>
+    <fullyQualifiedTypeName name="com.variable.java.Static"/>
+    <fullyQualifiedTypeName name="java.nio.Buffer"/>
+    <fullyQualifiedTypeName name="com.array.java.ArrayScannerInput"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.StrictMath"/>
+    <fullyQualifiedTypeName name="com.thiskeyword.java.ThirdUse"/>
+    <fullyQualifiedTypeName name="java.lang.ScopedValue"/>
+    <fullyQualifiedTypeName name="com.logical.java.ScannerDemo"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.oops.java.Employee.Programmer"/>
+    <fullyQualifiedTypeName name="Programmer"/>
+    <fullyQualifiedTypeName name="com.oops.java.Programmer"/>
+    <fullyQualifiedTypeName name="com.oops.java.Room"/>
+    <fullyQualifiedTypeName name="com.Inharitance.java.Passanger"/>
+    <fullyQualifiedTypeName name="com.exceptionhandling.java.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+</qualifiedTypeNameHistroy>

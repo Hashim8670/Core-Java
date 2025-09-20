@@ -1,0 +1,62 @@
+package GetUserInput;
+
+import    java.util.Scanner;
+
+public class SimpleCalculator {
+     public static void main(String[] args) {
+    	 
+    	 Scanner sc = new Scanner(System.in); 
+    	char choice;
+    	do {
+    	 System.out.println("Inter Number  A: ");
+    	  
+    	 int a = sc.nextInt();
+    	 
+    	 System.out.println("Inter Number B : ");
+    	   
+    	 int b = sc.nextInt();
+    	 
+    	 System.out.println("Choose An Operator : +,-,*,/,%,");
+    	 
+    	 char operator = sc.next().charAt(0);
+    	 boolean valid = true;
+
+    	 
+    	 char res = 0;
+    	 switch (operator)
+    	 {
+    		 case '+':
+    		 System.out.println(a+b);
+    		 break;
+    		 
+    		 case '-':
+    		System.out.println(a-b);	
+    		break;
+    		 case'*':
+    	    System.out.println(a*b);
+    	    break;
+    	    
+    		 case '/':
+    	   System.out.println(a/b);
+    	   break;
+    	   
+    		 case '%':
+    		System.out.println(a%b);
+    		break;
+    	 
+    	 default :
+    		System.out.println("Invalid Input"); 
+    	 
+    	 } 
+    	 if (valid) {
+             System.out.println("Result = " + res);
+         }
+
+         System.out.println("Do you want to perform another calculation? y/n): ");
+         choice = sc.next().charAt(0);
+     }
+    	while(choice=='y'|| choice=='Y');
+    	System.out.println("Calculator Closed. Thank you!");
+        sc.close();
+     }
+}

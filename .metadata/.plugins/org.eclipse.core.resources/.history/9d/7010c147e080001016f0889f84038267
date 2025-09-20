@@ -1,0 +1,30 @@
+package com.association.java;
+
+class Building {
+	String buildingname ;
+	int buildingid;
+	Building(String buildingname ,int buildingid){
+		this.buildingname = buildingname;
+		this.buildingid =    buildingid;
+	}
+}
+class Room{
+	Building   b;
+	String roomname;
+	int roomno;
+	Room(String roomname,int roomno){
+		  this.roomname = roomname ;
+		  this.roomno = roomno;
+	  }
+	  void show () {
+		  b = new Building("Hashim Apartment : ",72338670);
+		System.out.println("Building Name : "+b.buildingname+"\n"+"Bulding Id : "+b.buildingid);  
+		System.out.println(roomname+roomno);
+	  }
+}
+public class Composition1 {
+   public static void main(String[] args) {
+	  Room r = new Room("Hall Room",12);
+	  r.show();
+}
+}

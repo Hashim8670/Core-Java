@@ -1,0 +1,9 @@
+package Array;
+
+public class ArrayDemo {
+
+	    public static void main(String[] args) {
+	    	System.out.println("your index");
+	    	 int[] a=new int[3];
+	}
+}

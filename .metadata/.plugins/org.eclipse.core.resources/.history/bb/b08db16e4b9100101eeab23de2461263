@@ -1,0 +1,29 @@
+package Association;
+
+class Person {
+//	String name ;
+//	int salary;
+//	Person (String name, int salary ){
+//		this.name =  name ;
+//		this.salary= salary;
+	void seen() {
+		System.out.println("Hii");
+	}
+}
+class Job{
+	Person p;
+    Job(Person p){
+    	this.p = p;
+    }
+    void show() {
+    	p.seen();
+       System.out.println("Byy");
+    }
+   }
+public class Association {
+      public static void main(String[] args) {
+		Person p  = new Person();
+		Job j  = new Job(p);
+		j.show();
+	}  
+}

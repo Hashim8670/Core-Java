@@ -1,0 +1,49 @@
+package ExceptionHandling;
+
+import java.util.Scanner;
+
+@SuppressWarnings("serial")
+class AccountOpeningException extends RuntimeException{
+	AccountOpeningException(){
+		super("Your age is not valid...!");
+	}
+	AccountOpeningException(String message){
+		super(message);
+	}
+}
+class AccountOpening {
+	     int age;
+	     @SuppressWarnings("resource")
+		 void show() {
+	    	 Scanner sc=new Scanner(System.in);
+	    	 System.out.println("Enter Your Age...!");
+	    	 int age=sc.nextInt();
+	    	try { 
+	    		if(age<=18) {
+	    			throw new AccountOpeningException((" Are not Eligibal Account Opening..!"));
+	    			//throw new AccountOpeningException();
+	    		}
+	    		else {
+	    			System.out.println("You Are Eligibal Account Opening..!");
+	    		}
+	    	} 
+	    	catch(AccountOpeningException a) { 
+	    		//System.out.println(a);
+	    	 System.out.println(a.getMessage());
+	    		//a.printStackTrace();
+	    	}
+	    	if(age<=18) {
+	    		System.out.println("Sorry No Available your Passbook...!");
+	    	}
+	    	else {
+	    		System.out.println("You Can take Your Passbook....!");
+	    	}
+	    	sc.close();
+       }
+}
+public class UncheckedException {
+    public static void main(String[] args) {
+		AccountOpening accountOpening = new AccountOpening();
+		accountOpening.show();
+	}
+}

@@ -1,0 +1,23 @@
+package com.polymorphism.java;
+
+class Child{
+	
+	void show(String  name) {
+		System.out.println(name);
+	}
+	void  show (int rollno) {
+		System.out.println(rollno );
+	}
+	void show (String name ,int rollno) {
+		System.out.println(name+"\n"+rollno);
+	}
+}
+public class Overloading1 {
+
+	public static void main(String[] args) {
+		Child s = new Child();
+		s.show("Hashim Ansari");
+		s.show(12);
+		s.show("Hashim Ansari",12);
+	}
+}

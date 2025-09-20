@@ -1,0 +1,30 @@
+package com.variable.java;
+
+class Variablle2
+{
+   int a = 10;
+   static int b = 15;
+   
+   Variablle2()
+   {
+	 System.out.println(a+b);   
+   }
+   
+   {
+	 System.out.println("Hii Guys");  
+   }
+   void add()
+   {
+     int c= 10;
+     System.out.println(a+b+c);   
+   }
+}
+public class AllVariable {
+
+	public static void main(String[] args) {
+		Variablle2 v = new Variablle2();
+		v.add();
+		System.out.println(v.b);
+	}
+
+}

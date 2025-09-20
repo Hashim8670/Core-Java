@@ -1,0 +1,25 @@
+package com.core.java;
+
+class Teacher{
+	String name;
+	int age;
+	Teacher(String name ,int age){
+		this.name=name;
+		this.age=age;
+	}
+}
+class Student{
+	String address ;
+	public Student(String address) {
+		this.address=address;
+	}
+	Teacher t=new Teacher("hasim",23) ;
+	void show() {
+		System.out.println("Name :"+t.name +"\n"+"Age :"+t.age);
+		System.out.println(address);
+	}
+}
+public class Composition1 {
+	public static void main (String args[]) {
+	}
+}

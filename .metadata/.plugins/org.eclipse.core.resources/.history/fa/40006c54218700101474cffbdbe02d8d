@@ -1,0 +1,25 @@
+package com.logical.java;
+
+import java.util.Scanner;
+
+public class Palindrome {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+
+        int original = a;
+        int reverse = 0;
+
+        while (a > 0) {
+            int c = a % 10;
+            reverse = c + reverse * 10;
+            a = a / 10;
+        }
+
+        if (original == reverse) {
+            System.out.println(original + " is a Palindrome Number");
+        } else {
+            System.out.println(original + " is NOT a Palindrome Number");
+        }
+    }
+}

@@ -1,0 +1,15 @@
+package com.operators.java;
+
+public class Concatenat {
+
+	public static void main(String[] args) {
+		
+		String firstName="Hashim";
+		String secondName="Ansari";
+		String fullName= "Hashim"+"Ansari";
+		
+		System.out.println(fullName);
+		
+	}
+
+}

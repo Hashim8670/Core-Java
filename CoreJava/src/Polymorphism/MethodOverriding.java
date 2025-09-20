@@ -1,0 +1,31 @@
+package Polymorphism;
+
+class Employee{
+	void salary() {
+		System.out.println(100000);
+	}
+	void show() {
+		System.out.println("Payment Success Fully 1");
+	}
+}
+class clerk extends Employee{
+	
+	@Override
+	void salary() {
+		super.salary();
+		super.show();
+		System.out.println(120000);
+	}
+	void show() {
+		System.out.println("Your Payment is Success Fully ");
+	}
+	
+}
+public class MethodOverriding {
+  public static void main(String[] args) {
+	Employee e = new clerk();
+	  e.salary(); 
+	  e.show();
+	
+   }
+}

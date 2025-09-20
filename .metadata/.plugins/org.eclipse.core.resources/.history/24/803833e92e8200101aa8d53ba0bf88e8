@@ -1,0 +1,23 @@
+package com.polymorphism.java;
+
+class Person{
+	
+	void show(String  name) {
+		System.out.println(name);
+	}
+	void  show (int id) {
+		System.out.println(id );
+	}
+	void show (String name ,int id) {
+		System.out.println(name+":"+id);
+	}
+}
+public class Overloading1 {
+
+	public static void main(String[] args) {
+		Employee s = new Employee();
+		s.show("Hashim Ansari");
+		s.show(12);
+		s.show("Hashim Ansari",12);
+	}
+}

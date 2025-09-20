@@ -1,0 +1,23 @@
+package com.thiskeyword.java;
+
+public class SecondUse {
+
+	void show()
+	{
+	   System.out.println("Hello Developer");	
+	}
+}	
+class B extends SecondUse  {
+	void show()
+	{
+	   this.show();	
+	   System.out.println("How Are you");
+	}
+	
+	public static void main(String[] args) {
+	
+		SecondUse s=new B();
+		s.show();
+	}
+
+}

@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=21
+org.eclipse.jdt.core.compiler.compliance=21
+org.eclipse.jdt.core.compiler.problem.autoboxing=warning
+org.eclipse.jdt.core.compiler.problem.missingOverrideAnnotationForInterfaceMethodImplementation=disabled
+org.eclipse.jdt.core.compiler.problem.possibleAccidentalBooleanAssignment=warning
+org.eclipse.jdt.core.compiler.problem.unlikelyCollectionMethodArgumentTypeStrict=enabled
+org.eclipse.jdt.core.compiler.problem.unusedLocal=ignore
+org.eclipse.jdt.core.compiler.release=enabled
+org.eclipse.jdt.core.compiler.source=21

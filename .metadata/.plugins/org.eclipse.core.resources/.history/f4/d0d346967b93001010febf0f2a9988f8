@@ -1,0 +1,13 @@
+package Array;
+
+public class ArrayDemo {
+
+	    public static void main(String[] args) {
+	    try {
+	       int[] a=new int[-3];
+	    }
+	    catch(Exception e) {
+	      e.printStackTrace();
+	    }
+	}
+}

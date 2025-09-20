@@ -1,0 +1,20 @@
+package ExceptionHandling;
+
+public class NullPointer {
+
+	public static void main(String[] args) {
+	
+		String str=null;
+		
+		try {
+			@SuppressWarnings("null")
+			int length=str.length();
+			System.out.println("String Length = "+length);
+		}
+		catch(NullPointerException a) {
+			System.out.println(a);
+			a.printStackTrace();
+		}
+	}
+
+}

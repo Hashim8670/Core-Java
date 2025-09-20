@@ -1,0 +1,20 @@
+package Polymorphism;
+
+class Garden {
+	  void fruit(String name ) {
+		System.out.println("Fruit name is Mango");
+	  }
+	  void fruit(String name1,String name ) {
+		  System.out.println("");
+	  }
+}
+
+
+public class MethodOverLoading {
+
+	public static void main(String[] args) {
+		Garden garden = new Garden();
+              garden.fruit("Mango");
+	}
+
+}

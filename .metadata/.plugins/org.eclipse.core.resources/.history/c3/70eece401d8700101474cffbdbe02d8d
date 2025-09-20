@@ -1,0 +1,22 @@
+
+package com.logical.java;
+
+import java.util.Scanner;
+
+class SumOfDigit{
+    public static void main(String args[]){
+    	Scanner sc =  new Scanner(System.in);
+    	long a = sc.nextLong();
+    long b= a;
+    //long b=a*a;
+   long sum = 0;
+    while(b>0){
+    	sum+=b%10;
+    	a= a/10;
+    	//  System.out.println(sum);
+    
+    }
+    System.out.println(sum);
+    }
+}
+

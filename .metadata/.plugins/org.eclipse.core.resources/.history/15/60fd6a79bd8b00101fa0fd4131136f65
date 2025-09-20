@@ -1,0 +1,24 @@
+package com.thiskeyword.java;
+
+class A {
+
+	void show()
+	{
+	   System.out.println("Hello Developer");	
+	}
+}	
+class B extends A {
+	void show()
+	{
+	   super.show();	
+	   System.out.println("How Are you");
+	}
+}
+class SecondUse{
+	public static void main(String[] args) {
+	
+		A s=new B();
+		s.show();
+	}
+
+}

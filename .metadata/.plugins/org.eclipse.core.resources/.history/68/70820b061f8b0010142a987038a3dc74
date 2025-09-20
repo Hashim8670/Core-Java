@@ -1,0 +1,16 @@
+package com.datatypes.java;
+
+public class ParemeterOfReactangle {
+
+	public static void main(String[] args) {
+     
+		int l=2;
+		int b=4;
+		int p=2*(l+b);
+  			
+	System.out.println("Length "+l);
+	System.out.println("Brath "+b);
+     System.out.println("Paremeter "+p);
+	}
+
+}
