@@ -10,14 +10,15 @@ public class PrimeNumber {
 	 int a=sc.nextInt();
 	 for(int i=2; i<=a; i++) {
 	     boolean isPrime=false;
+
 	   for(int j=2; j<=i/2; j++) {
 		   if(i%j==0) {
 		   isPrime=true;
 	       break;   
 	   }
-	 }
-	   if(isPrime){
-		  System.out.println(i+",");
+	   }
+	   if(isPrime==false){
+		  System.out.print(i+",");
 		  sc.close();
 	   }
 	}

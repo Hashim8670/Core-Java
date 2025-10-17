@@ -1,0 +1,32 @@
+package CollectionFramwork;
+
+import java.util.TreeMap;
+
+public class TreeMapDemo {
+     public static void main(String[] args) {
+		
+//    	 TreeMap<String,Integer> tm1=new TreeMap<> ();
+    	 TreeMap<Integer,String> tm=new TreeMap<> ();
+    	 
+    	 tm.put(4,"Hashim");
+    	 tm.put(1,"Ansari");
+    	 tm.put(6,"Koilsa");
+    	 tm.put(3,"SK Nagar"); 
+    	 tm.put(2,"Arsalan");
+    	 tm.put(4,"Hashim");
+         System.out.println(tm);
+//         tm.clear();
+         System.out.println(tm.containsKey(4));
+         System.out.println(tm.containsValue(4));
+         
+//         System.out.println(tm.ceilingEntry(5));    	 
+//         System.out.println(tm.ceilingKey(5));    	 
+//    	 tm1.put("Hashim",7);
+//    	 tm1.put("Ansari",3);
+//    	 tm1.put("Koilsa",6);
+//    	 tm1.put("SK Nagar",1); 
+//    	 tm1.put("Arsalan",5);
+//    	 tm1.put("Hashim",2);
+//    	 System.out.println(tm1);
+     }
+}

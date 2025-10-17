@@ -1,0 +1,43 @@
+package CollectionFramwork;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+
+
+	@SuppressWarnings("boxing")
+	public static void main(String[] args) {
+		
+		ArrayList<Integer> al=new ArrayList<>();
+		 
+		al.add(12);
+//		al.add("Ansari");
+//		al.add("Koilsa");
+//		al.add("Qasim");
+		al.add(38);
+		al.add(29);
+		al.add(29);
+		for(Integer i:al) {
+			if(i==2) {
+				System.out.println(al.remove(i));
+			}
+			
+		}
+//		System.out.println(al);
+//		
+//		ArrayList<Object>al1=new ArrayList<>();
+//		al1.add(12);
+//		al1.add("Ansari");
+//		al1.add("Koilsa");
+//		al1.add(35);
+//		al1.add(29);
+//		System.out.println(al1);
+//		
+//		System.out.println(al.size());
+//		System.out.println(al1.size());
+		
+		
+		
+	}
+
+}

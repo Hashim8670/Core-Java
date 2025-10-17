@@ -1,0 +1,33 @@
+package CollectionFramwork;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.ListIterator;
+
+public class ListIteratorCursor {
+
+	public static void main(String[] args) {
+		
+		List<Object> l =new ArrayList<>();
+		
+		l.add("Hashim");
+		l.add("Ansari");
+		l.add("Koilsa");
+		l.add("S k Nagar");
+		System.out.println(l);
+		System.out.println(l.remove("Ansari"));
+		System.out.println(l);
+		ListIterator<Object> lt=l. listIterator() ;
+//		while (lt.hasNext()) {
+//			System.out.println(lt.next());
+//		}
+		System.out.println("<------------------------------------->");
+		while (lt.hasPrevious()) {
+			System.out.println(lt.previous());
+		}
+		l.set(0,"Qasim");
+		System.out.println(l);
+		
+	}
+
+}

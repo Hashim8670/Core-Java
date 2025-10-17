@@ -1,0 +1,19 @@
+package CollectionFramwork;
+
+import java.util.TreeMap;
+
+public class TreeMapDemo {
+     public static void main(String[] args) {
+		
+    	 TreeMap<Integer,String> tm=new TreeMap<> ();
+    	 
+    	 tm.put(4,"Hashim");
+    	 tm.put(1,"Ansari");
+    	 tm.put(6,"Koilsa");
+    	 tm.put(3,"SK Nagar"); 
+    	 tm.put(2,"Arsalan");
+    	 tm.put(4,"Hashim");
+
+    	 System.out.println(tm);
+     }
+}

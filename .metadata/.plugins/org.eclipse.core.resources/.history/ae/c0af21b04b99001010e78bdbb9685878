@@ -1,0 +1,29 @@
+package CollectionFramwork;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class ListDemo {
+
+	  public static void main(String[] args) {
+		  List<Integer> l=new ArrayList<>();
+		  List<Integer> l1=new ArrayList<>();
+		  l.add(5,50);
+		  
+//		  l.add(1,60);
+//		  l.add(2,70);
+//		  l.add(3,null);
+//		  l.add(null);
+		  System.out.println(l); 
+//		  l1.add(null);
+//		  l1.add(null);
+//		  l1.add(50);
+//		  l1.add(60);
+////		  l1.;
+//		  System.out.println(l1);
+//		  l.addAll(l1);
+//		  System.out.println(l);
+//		  Iterator itr=l.iterator();
+//		  }
+}

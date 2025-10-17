@@ -1,0 +1,13 @@
+package CollectionFramwork;
+
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		
+		ArrayListDemo al=new ArrayListDemo();
+		
+		al.add(12);
+		
+	}
+
+}

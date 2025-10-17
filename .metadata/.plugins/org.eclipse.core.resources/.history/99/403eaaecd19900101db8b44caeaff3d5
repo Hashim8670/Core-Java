@@ -1,0 +1,19 @@
+package CollectionFramwork;
+
+import java.util.ArrayList;
+
+public class ArrayListDemo {
+
+
+	public static void main(String[] args) {
+		
+		ArrayList<Integer>al=new ArrayList<>();
+		 
+		al.add(12);
+		
+		al.add(15);
+		
+		System.out.println(al);
+	}
+
+}

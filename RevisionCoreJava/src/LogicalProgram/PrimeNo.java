@@ -5,16 +5,15 @@ public class PrimeNo {
 	public static void main(String[] args) {
 	
 		        int a=17;
-		        boolean isPrime=true;
+		        int count=0;
 		        for(int i=1; i<=a; i++)
 		        {
 		            if(a%i==0) {
-		            	isPrime=false;
-		            	break;
+		            count++;  
 		            }
 		           
 		        }
-		        if(isPrime==false) {
+		        if(count==2) {
 		       System.out.println(a+" is prime no");
 		    }
 		        else {
